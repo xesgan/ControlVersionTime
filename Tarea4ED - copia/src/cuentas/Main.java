@@ -13,7 +13,7 @@ public class Main {
         cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
         saldoActual = cuenta1.estado();
         System.out.println("El saldo actual es (encuentra a wally)"+ saldoActual );
-
+        System.out.println("Me gusta programar, pero es difícil.");
         try {
             cuenta1.retirar(2300.0);
         } catch (Exception e) {
