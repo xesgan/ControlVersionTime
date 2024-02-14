@@ -1,10 +1,23 @@
 package cuentas;
 
+/**
+ * Esta clase contiene el método main para probar la clase CCuenta.
+ */
 public class Main {
+
+    /**
+     * Método main para la clase CCuenta.
+     * @param args los argumentos de la línea de comandos.
+     */
 
     public static void main(String[] args) {
         operativa_cuenta(0.0F);
     }
+
+    /**
+     * Método para realizar operaciones con una cuenta bancaria.
+     * @param cantidad La cantidad inicial de la cuenta.
+     */
 
     private static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
