@@ -9,7 +9,7 @@ package cuentas;
 
 public class CCuenta {
 
-
+/* */
     private String nombre;
     private String cuenta;
     private double saldo;
